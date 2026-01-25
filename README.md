@@ -13,7 +13,7 @@ Install the cartographer dependency first:
 
 1. Add this private marketplace:
    ```
-   /plugins marketplace add YOUR_GITHUB_USERNAME/codebase-audit-plugin
+   /plugins marketplace add isethius/codebase-audit-plugin
    ```
 
 2. Install the plugin:
