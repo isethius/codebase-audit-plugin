@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "codebase-audit",
+      "version": "1.0.0",
+      "path": "."
+    }
+  ]
+}

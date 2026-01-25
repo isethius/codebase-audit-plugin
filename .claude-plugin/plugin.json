@@ -1,0 +1,11 @@
+{
+  "name": "codebase-audit",
+  "description": "Comprehensive code review, debugging, architecture analysis, and security audit with cartographer integration",
+  "version": "1.0.0",
+  "author": {
+    "name": "Andrew Ferguson"
+  },
+  "dependencies": {
+    "plugins": ["cartographer-marketplace/cartographer"]
+  }
+}
