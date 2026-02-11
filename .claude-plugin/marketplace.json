@@ -1,9 +1,21 @@
 {
+  "name": "codebase-audit-marketplace",
+  "owner": {
+    "name": "Andrew Ferguson",
+    "url": "https://github.com/isethius"
+  },
+  "metadata": {
+    "description": "Comprehensive code review, debugging, architecture analysis, and security audit plugin for Claude Code",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "codebase-audit",
+      "source": "./plugins/codebase-audit",
+      "description": "Comprehensive code review, debugging, architecture analysis, and security audit. Produces actionable findings with patches, risk registers, and prioritized backlogs.",
       "version": "1.0.0",
-      "path": "."
+      "category": "developer tools",
+      "keywords": ["code review", "security audit", "architecture", "debugging", "performance", "maintainability"]
     }
   ]
 }
